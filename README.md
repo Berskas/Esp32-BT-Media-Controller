@@ -1,3 +1,5 @@
+[Türkçe](READMETR.md)
+
 # 🎵 ESP32 BLE Media Controller
 
 A wireless media controller based on ESP32 that connects via Bluetooth. Control your music with physical buttons from any device.
@@ -47,7 +49,7 @@ A wireless media controller based on ESP32 that connects via Bluetooth. Control 
    git clone https://github.com/Berskas/esp32-ble-media-controller.git
    cd esp32-ble-media-controller
    ```
-
+j
 2. Open in VS Code with PlatformIO installed.
 
 3. The required library is defined in `platformio.ini` and will be downloaded automatically:
