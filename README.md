@@ -36,14 +36,15 @@ A wireless media controller based on ESP32 that connects via Bluetooth. Control 
 
 ### Requirements
 
-- [PlatformIO](https://platformio.org/) (VS Code extension or CLI)
+- [PlatformIO](https://platformio.org/)  or [Arduino IDE](https://www.arduino.cc/en/software)
 - Any ESP32 board
 
 ### Steps
 
+### 1. Using PlatformIO.
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your_username/esp32-ble-media-controller.git
+   git clone https://github.com/Berskas/esp32-ble-media-controller.git
    cd esp32-ble-media-controller
    ```
 
@@ -59,6 +60,18 @@ A wireless media controller based on ESP32 that connects via Bluetooth. Control 
    pio run --target upload
    ```
 
+### 2. Using Arduino IDE
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Berskas/esp32-ble-media-controller.git
+   cd esp32-ble-media-controller
+   ```
+2. Open the Arduino IDE 
+
+3. Install the library via Library Manager (search `ESP32 BLE Keyboard` by T-vK).
+
+4. Connect your ESP32 via USB and upload.
+
 ## Usage
 
 1. Power on the ESP32.
@@ -69,6 +82,4 @@ A wireless media controller based on ESP32 that connects via Bluetooth. Control 
 
 This project uses [T-vK/ESP32-BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard).
 
-## License
 
-MIT
