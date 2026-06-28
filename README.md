@@ -74,6 +74,11 @@ j
 
 4. Connect your ESP32 via USB and upload.
 
+## Schematics 
+
+![Schematic1](schematic_V1.0.PNG)
+
+
 ## Usage
 
 1. Power on the ESP32.

@@ -75,6 +75,10 @@ ESP32 tabanlı, Bluetooth ile bağlanan kablosuz medya kontrolcüsü. Fiziksel b
 
 4. ESP32'yi USB ile bağla ve yükle.
 
+## Şemaler 
+
+![Schematic1](schematic_V1.0.PNG)
+
 ## Kullanım
 
 1. ESP32'ye güç ver.
